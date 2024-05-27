@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadeem - Web Developer</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #1A1A1A;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    .header p {
+      margin: 5px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 20px 0;
+    }
+
+    .section h2 {
+      margin-bottom: 10px;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .project {
+      width: 45%;
+    }
+
+    .project img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .project h3 {
+      margin: 10px 0;
+    }
+
+    .project p {
+      margin-bottom: 10px;
+    }
+
+    .skills-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .skills-list li {
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      padding: 5px 10px;
+      background-color: #eee;
+      border-radius: 5px;
+    }
+
+    .footer {
+      background-color: #1A1A1A;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>Nadeem</h1>
+      <p>Web Developer</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer with experience in HTML, CSS, JavaScript, and various web frameworks. I thrive on turning ideas into reality and crafting engaging user experiences.</p>
+        <p>I have a strong work ethic and a dedication to continuous learning. I'm always looking for new challenges and opportunities to expand my skillset.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div id="project2"></div>
+          <div>
+            <h3>Project 1 Title</h3>
+            <p>A brief description of your project. Briefly explain the functionalities and the technologies used.</p>
+            <a href="#">View Demo</a> </div>
+          <div id="project1">
+            <h3>Project 2 Title</h3>
+            <p>Another project description. Briefly explain the functionalities and the technologies used.</p>
+            <a href="#">Visit Website</a> </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Bootstrap</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Get in touch and let's discuss your project!</p>
+        <form action="mailto:nadeem@gmail.com">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Nadeem. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+<form action=""></form>
